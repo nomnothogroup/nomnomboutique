@@ -1,11 +1,12 @@
-# NOMA - Premium Fashion E-Commerce Platform
+# NOMNOM BOUTIQUE - Premium Fashion E-Commerce Platform
 
-A study of identity in motion. Limited drops from our ORIGINS: RECODED collection.
+A contemporary fashion e-commerce platform specializing in premium African streetwear and luxury fashion items.
 
-## 🚀 Overview
+## Overview
 
-NOMA is a premium fashion e-commerce platform built with Next.js, TypeScript, and Supabase. Features include:
+NOMNOM BOUTIQUE is a premium fashion e-commerce platform built with Next.js, TypeScript, and Supabase. Our platform offers a curated selection of clothing, accessories, and lifestyle products that celebrate modern African identity and design.
 
+Features include:
 - **Modern African luxury fashion** aesthetic with minimal, editorial design
 - **Limited drops** model with scarcity indicators
 - **Full-stack integration** with Supabase for auth, database, and storage
@@ -14,7 +15,7 @@ NOMA is a premium fashion e-commerce platform built with Next.js, TypeScript, an
 - **Cart system** with local storage persistence
 - **Checkout flow** with order processing
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Frontend
 - **Next.js 15** with App Router
@@ -34,12 +35,12 @@ NOMA is a premium fashion e-commerce platform built with Next.js, TypeScript, an
 - **Vercel** for hosting
 - **GitHub** for version control
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd noma-store
+   git clone https://github.com/nomnothogroup/nomnomboutique.git
+   cd nomnomboutique
    ```
 
 2. **Install dependencies**
@@ -68,10 +69,10 @@ NOMA is a premium fashion e-commerce platform built with Next.js, TypeScript, an
 
    Open [http://localhost:3000](http://localhost:3000) to see the application.
 
-## 🗂 Project Structure
+## Project Structure
 
 ```
-noma-store/
+nomnomboutique/
 ├── src/
 │   ├── app/                    # Next.js App Router pages
 │   │   ├── admin/             # Admin panel
@@ -92,7 +93,7 @@ noma-store/
 └── tailwind.config.ts         # Tailwind configuration
 ```
 
-## 🎨 Design System
+## Design System
 
 ### Colors
 - **Black & White palette** with neutral grays
@@ -109,7 +110,7 @@ noma-store/
 - **Grid-based layouts** for products
 - **Responsive breakpoints**: mobile-first approach
 
-## 🔐 Features
+## Features
 
 ### Shopping Experience
 - **Product browsing** with grid layout and hover effects
@@ -130,7 +131,7 @@ noma-store/
 - **Order processing** with status tracking
 - **Email collection** for guest orders
 
-## 🚀 Deployment
+## Deployment
 
 ### Vercel Deployment
 1. **Connect GitHub repository**
@@ -142,7 +143,7 @@ noma-store/
 - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
 - `SUPABASE_SERVICE_ROLE_KEY`
 
-## 📊 Database Schema
+## Database Schema
 
 ### Products Table
 ```sql
@@ -174,7 +175,7 @@ CREATE TABLE orders (
 );
 ```
 
-## 🛠 Development
+## Development
 
 ### Available Scripts
 ```bash
@@ -196,21 +197,21 @@ npm run lint       # Run ESLint
 2. View order details and customer info
 3. Update order status (pending → paid → shipped)
 
-## 🎯 Business Model
+## Business Model
 
 - **Limited drops** - No mass production
 - **Scarcity marketing** - Limited pieces remaining indicators
 - **Premium positioning** - High-end streetwear aesthetic
 - **Drop-based releases** - Collections with themes
 
-## 📱 Mobile Experience
+## Mobile Experience
 
 - **Mobile-first** responsive design
 - **Touch-friendly** interactions
 - **Optimized loading** with lazy loading
 - **Minimal UI** for luxury feel
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - **User authentication** with order history
 - **Wishlist functionality**
@@ -220,10 +221,16 @@ npm run lint       # Run ESLint
 - **Shipping calculation**
 - **Social sharing** for products
 
-## 📞 Support
+## Contributing
 
-For support or questions, please contact the development team.
+We welcome contributions to NOMNOM BOUTIQUE. Please read our contributing guidelines before submitting pull requests.
+
+## Support & Contact
+
+For support or questions, please contact us at **info@nomnomboutique.com**
 
 ---
 
-Built with ❤️ for NOMA - A study of identity in motion.
+ 2024 NOMNOM BOUTIQUE. All rights reserved.
+
+Built with for modern African fashion - A study of identity in motion.
